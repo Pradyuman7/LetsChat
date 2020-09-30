@@ -22,25 +22,31 @@
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="365dp"
-        android:layout_height="49dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_box_height"
         android:layout_marginBottom="10dp"
-        android:background="#000000"
+        android:background="@android:color/white"
         android:hint="@string/enter_username"
+        android:importantForAutofill="no"
         android:inputType="text"
         android:maxLines="1"
-        android:textColor="#ffffff" />
+        android:padding="8dp"
+        android:textColor="@color/primary_text_color"
+        android:textColorHint="@color/text_hint_color" />
 
     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_box_height"
         android:id="@+id/password"
-        android:layout_width="363dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="10dp"
-        android:background="#000000"
+        android:background="@android:color/white"
         android:hint="@string/enter_password"
+        android:layout_marginBottom="10dp"
         android:inputType="textPassword"
+        android:importantForAutofill="no"
         android:maxLines="1"
-        android:textColor="#ffffff" />
+        android:padding="8dp"
+        android:textColor="@color/primary_text_color"
+        android:textColorHint="@color/text_hint_color" />
 
     <Button
         android:layout_width="match_parent"
