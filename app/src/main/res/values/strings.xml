@@ -6,6 +6,6 @@
     <string name="click_here_to_register">Click here to register</string>
     <string name="write_a_message">Type a message</string>
     <string name="click_here_to_login">Click here to login</string>
-    <string name="enter_password">enter_password</string>
+    <string name="enter_password">enter password</string>
     <string name="register">Register</string>
 </resources>
